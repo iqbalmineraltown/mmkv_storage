@@ -1,6 +1,5 @@
 name: mmkv_storage_example
 description: Demonstrates how to use the mmkv_storage plugin.
-publish_to: "none"
 version: 0.1.0
 
 environment:

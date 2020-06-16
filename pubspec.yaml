@@ -1,7 +1,6 @@
 name: mmkv_storage
 description: Flutter wrapper for https://github.com/Tencent/MMKV
 version: 0.1.0
-author: Muhammad Iqbal <iqbalmineraltown@gmail.com>
 homepage: https://github.com/iqbalmineraltown/mmkv_storage
 
 environment:
