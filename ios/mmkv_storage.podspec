@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 A new flutter plugin project.
                        DESC
   s.homepage         = 'https://github.com/iqbalmineraltown/mmkv_storage'
-  s.license          = { :file => '../LICENSE' }
+  s.license          = { :file => '../LICENSE.md' }
   s.author           = { 'Muhammad Iqbal' => 'iqbalmineraltown@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
