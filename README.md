@@ -1,6 +1,8 @@
 # mmkv_storage
 
-A new flutter plugin project.
+[![pub package](https://img.shields.io/badge/pub-0.1.0-blue.svg)](https://pub.dev/packages/mmkv_storage)
+
+Wraps MMKV iOS and Android native library as Flutter Plugin
 
 ## Getting Started
 

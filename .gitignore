@@ -9,3 +9,5 @@ build/
 pubspec.lock
 
 .idea/
+.gradle/
+local.properties
