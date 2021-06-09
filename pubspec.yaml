@@ -1,11 +1,10 @@
 name: mmkv_storage
 description: Flutter wrapper for MMKV library. This package is intended for faster iOS/Android local storage access.
-version: 0.1.0+1
+version: 0.2.0
 homepage: https://github.com/iqbalmineraltown/mmkv_storage
 
 environment:
-  sdk: ">=2.1.0 <3.0.0"
-  flutter: ">=1.12.0 <2.0.0"
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:

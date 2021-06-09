@@ -1,11 +1,11 @@
 PODS:
   - Flutter (1.0.0)
-  - MMKV (1.1.2):
-    - MMKVCore (~> 1.1.2)
+  - MMKV (1.2.7):
+    - MMKVCore (~> 1.2.7)
   - mmkv_storage (0.0.1):
     - Flutter
     - MMKV
-  - MMKVCore (1.1.2)
+  - MMKVCore (1.2.7)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -23,11 +23,11 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/mmkv_storage/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
-  MMKV: 319aede3b690572ad00bada5831146c63da3d009
+  Flutter: 434fef37c0980e73bb6479ef766c45957d4b510c
+  MMKV: 22e5136f7d00197bc0fc9694b7f71519f0d1ca12
   mmkv_storage: efffc41546d3cf43bbe50876634038e58f650752
-  MMKVCore: ae976ab3f019a3e4448f884353e0557b324ff136
+  MMKVCore: 607b7b05f2c2140056b5d338e45f2c14bf3f4232
 
-PODFILE CHECKSUM: e45c292f618eeca3034958d33b444b6e1249b55f
+PODFILE CHECKSUM: a75497545d4391e2d394c3668e20cfb1c2bbd4aa
 
-COCOAPODS: 1.9.3
+COCOAPODS: 1.10.1

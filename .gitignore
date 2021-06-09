@@ -11,3 +11,5 @@ pubspec.lock
 .idea/
 .gradle/
 local.properties
+
+.fvm/flutter_sdk

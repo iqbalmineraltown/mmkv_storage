@@ -102,7 +102,7 @@ class _MyAppState extends State<MyApp> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         MmkvStorage.encodeString(
                             _keyString1, _myController.text.toString());
@@ -114,7 +114,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         MmkvStorage.decodeString(_keyString1).then((value) {
                           setState(() {
@@ -129,7 +129,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         setState(() {
                           _myString1 = null;
@@ -142,7 +142,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () async {
                         await MmkvStorage.removeValueForKey(_keyString1);
                         var str1 = await MmkvStorage.decodeString(_keyString1);
@@ -162,7 +162,7 @@ class _MyAppState extends State<MyApp> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         MmkvStorage.encodeString(
                             _keyString2, _myController.text.toString());
@@ -174,7 +174,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         MmkvStorage.decodeString(_keyString2).then((value) {
                           setState(() {
@@ -189,7 +189,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () {
                         setState(() {
                           _myString2 = null;
@@ -202,7 +202,7 @@ class _MyAppState extends State<MyApp> {
                         ),
                       ),
                     ),
-                    RaisedButton(
+                    ElevatedButton(
                       onPressed: () async {
                         await MmkvStorage.removeValueForKey(_keyString2);
                         var str2 = await MmkvStorage.decodeString(_keyString2);
@@ -219,7 +219,7 @@ class _MyAppState extends State<MyApp> {
                     )
                   ],
                 ),
-                RaisedButton(
+                ElevatedButton(
                   onPressed: () async {
                     await MmkvStorage.removeAll();
                     var str1 = await MmkvStorage.decodeString(_keyString1);
